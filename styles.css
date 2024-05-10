@@ -1,0 +1,102 @@
+/* CSS */
+
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set up fonts */
+  body {
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+  }
+  
+  /* Header styles */
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Navigation styles */
+  .navbar {
+    background-color: #444;
+    padding: 10px 0;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  .navbar ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .navbar ul li a:hover {
+    color: #ffd700; /* Change color on hover */
+  }
+  
+  /* Main content styles */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Footer styles */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* styles.css */
+
+/* Adjust size of weapon card images */
+.weapon-card img {
+    max-width: 10%; /* Ensure the image does not exceed its container's width */
+    height: auto; /* Maintain the aspect ratio */
+  }
+  
+  /* styles.css */
+
+/* Set background image for all pages */
+/* styles.css */
+
+/* Set background image for all elements */
+body {
+    background-image: url('background.png');
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+  }
+
+header {
+    background-image: url('LTM Background.PNG');
+}
+
+/* styles.css */
+
+/* Style for weapon cards */
+.weapon-card {
+    background-color: rgba(6, 76, 133, 0.3); /* Semi-transparent white background */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Add some padding */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Blurred box shadow */
+    margin-bottom: 20px; /* Add some space between cards */
+  }
+  
